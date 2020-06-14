@@ -7,6 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="Login_withinvalidcredentials_validation"/>
+          <include name="Login_withvalidcredentials_validation"/>
           <include name="AppLaunch_Validation"/>
           <include name="tearDown"/>
         </methods>

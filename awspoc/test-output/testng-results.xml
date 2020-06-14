@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16247" started-at="2020-06-08T21:48:09 EDT" finished-at="2020-06-08T21:48:25 EDT">
+  <suite name="Default suite" duration-ms="28019" started-at="2020-06-14T11:36:09 EDT" finished-at="2020-06-14T11:36:37 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16247" started-at="2020-06-08T21:48:09 EDT" finished-at="2020-06-08T21:48:25 EDT">
+    <test name="Default test" duration-ms="28019" started-at="2020-06-14T11:36:09 EDT" finished-at="2020-06-14T11:36:37 EDT">
       <class name="testScenarios.AndroidSanity">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testScenarios.AndroidSanity@3d921e20]" name="setUp" is-config="true" duration-ms="11359" started-at="2020-06-08T21:48:09 EDT" finished-at="2020-06-08T21:48:20 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScenarios.AndroidSanity@587d1d39]" name="setUp" is-config="true" duration-ms="15113" started-at="2020-06-14T11:36:09 EDT" finished-at="2020-06-14T11:36:24 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="AppLaunch_Validation()[pri:0, instance:testScenarios.AndroidSanity@3d921e20]" name="AppLaunch_Validation" duration-ms="1151" started-at="2020-06-08T21:48:20 EDT" description="validation app launch" finished-at="2020-06-08T21:48:21 EDT">
+        <test-method status="PASS" signature="AppLaunch_Validation()[pri:0, instance:testScenarios.AndroidSanity@587d1d39]" name="AppLaunch_Validation" duration-ms="1744" started-at="2020-06-14T11:36:24 EDT" description="validation app launch" finished-at="2020-06-14T11:36:26 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppLaunch_Validation -->
-        <test-method status="PASS" signature="Login_withinvalidcredentials_validation()[pri:2, instance:testScenarios.AndroidSanity@3d921e20]" name="Login_withinvalidcredentials_validation" duration-ms="3696" started-at="2020-06-08T21:48:21 EDT" description="Login with invalid credentials validation" finished-at="2020-06-08T21:48:25 EDT">
+        <test-method status="PASS" signature="Login_withinvalidcredentials_validation()[pri:2, instance:testScenarios.AndroidSanity@587d1d39]" name="Login_withinvalidcredentials_validation" duration-ms="4854" started-at="2020-06-14T11:36:26 EDT" description="Login with invalid credentials validation" finished-at="2020-06-14T11:36:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_withinvalidcredentials_validation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScenarios.AndroidSanity@3d921e20]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-08T21:48:25 EDT" finished-at="2020-06-08T21:48:25 EDT">
+        <test-method status="PASS" signature="Login_withvalidcredentials_validation()[pri:3, instance:testScenarios.AndroidSanity@587d1d39]" name="Login_withvalidcredentials_validation" duration-ms="6232" started-at="2020-06-14T11:36:31 EDT" description="Login with valid credentials validation" finished-at="2020-06-14T11:36:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_withvalidcredentials_validation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScenarios.AndroidSanity@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-14T11:36:37 EDT" finished-at="2020-06-14T11:36:37 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
